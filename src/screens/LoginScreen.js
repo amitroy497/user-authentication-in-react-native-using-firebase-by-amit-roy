@@ -13,7 +13,6 @@ export const LoginScreen = () => {
 		setIsAuthenticating(true);
 		try {
 			const token = await login(email, password);
-			console.log('HariHara', token);
 			authCtx.authenticate(token);
 		} catch (error) {
 			Alert.alert(
