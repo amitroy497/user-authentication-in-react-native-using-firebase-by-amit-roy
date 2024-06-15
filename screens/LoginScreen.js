@@ -1,5 +1,3 @@
-// import AuthContent from '../components/Auth/AuthContent';
-
 import { AuthContent } from '../src';
 
 function LoginScreen() {
